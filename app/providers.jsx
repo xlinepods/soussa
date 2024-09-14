@@ -15,7 +15,7 @@ import { configureChains, createConfig, WagmiConfig } from "wagmi";
 import { mainnet, sepolia } from "wagmi/chains";
 import { publicProvider } from "wagmi/providers/public";
 
-const projectId = "1e0376002f3f81f737baad52c4810018";
+const projectId = "1fbadbac276cd0590a44a3f19813db2f";
 
 const { chains, publicClient, webSocketPublicClient } = configureChains(
   [mainnet, sepolia],
