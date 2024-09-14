@@ -8,7 +8,6 @@ import {
 } from "@rainbow-me/rainbowkit";
 import {
   argentWallet,
-  trustWallet,
   ledgerWallet,
 } from "@rainbow-me/rainbowkit/wallets";
 import { configureChains, createConfig, WagmiConfig } from "wagmi";
